@@ -1,0 +1,4 @@
+2. Run the build script:
+3. After running the build script, you'll find the distributable package in the `dist` directory.
+
+4. For testing, you can run:

@@ -5,23 +5,23 @@ class TestAddNumbers(unittest.TestCase):
 
     def test_successful_addition(self):
         result = add_numbers(2, 3)
-        self.assertEqual(result, 5)  # This test should pass
+        self.assertEqual(result, 5)  # pass
 
     def test_failed_addition(self):
         result = add_numbers(2, 3)
-        self.assertEqual(result, 6)  # This test should fail
+        self.assertEqual(result, 6)  # fail
 
     def test_successful_subtraction(self):
         result = add_numbers(5, 3)
-        self.assertEqual(result, 2)  # This test should pass
+        self.assertEqual(result, 2)  # pass
 
     def test_failed_subtraction(self):
         result = add_numbers(5, 3)
-        self.assertEqual(result, 8)  # This test should fail
+        self.assertEqual(result, 8)  #  fail
 
     def test_successful_addition(self):
         result = add_numbers(2, 3)
-        self.assertEqual(result, 5)  # This test should pass
+        self.assertEqual(result, 5)  # pass
 
     def test_another_successful_addition(self):
         result = add_numbers(7, 8)
