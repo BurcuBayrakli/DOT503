@@ -1,11 +1,11 @@
 import subprocess
 import sys
 import os
-
+#push
 # Define your project name and version
 project_name = "calculator"
 project_version = "1.0.0"
-
+#modifying
 # Define a function to run shell commands
 def run_command(command, cwd=None):
     try:
@@ -30,13 +30,7 @@ run_command(build_command)
 # Output distribution files to the 'dist' directory
 print("Distribution files are located in the 'dist' directory.")
 
-# You can add more build steps here if needed
 
-# Optionally, you can create a standalone executable (e.g., with pyinstaller)
-# executable_command = f"pyinstaller your_script.py --onefile"
-# run_command(executable_command)
-
-# Provide instructions for packaging
 
 print("\nPackage build complete.")
 print(f"Your package name: {project_name}")
