@@ -1,7 +1,7 @@
 import subprocess
 import sys
 import os
-#push
+#pushhh
 # Define your project name and version
 project_name = "calculator"
 project_version = "1.0.0"
