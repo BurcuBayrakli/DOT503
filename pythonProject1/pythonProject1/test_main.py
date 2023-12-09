@@ -1,11 +1,11 @@
 import unittest
 from main import add_numbers
-//
+
 class TestAddNumbers(unittest.TestCase):
 
     def test_successful_addition(self):
         result = add_numbers(2, 3)
-        self.assertEqual(result, 5)  # This test should pass
+        self.assertEqual(result, 4)  # This test should pass
 
     def test_failed_addition(self):
         result = add_numbers(2, 3)
